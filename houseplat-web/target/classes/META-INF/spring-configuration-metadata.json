@@ -1,0 +1,35 @@
+{
+  "groups": [{
+    "name": "spring.httpclient",
+    "type": "au.leon.platform.web.autoconfig.HttpClientProperties",
+    "sourceType": "au.leon.platform.web.autoconfig.HttpClientProperties"
+  }],
+  "properties": [
+    {
+      "name": "spring.httpclient.agent",
+      "type": "java.lang.String",
+      "sourceType": "au.leon.platform.web.autoconfig.HttpClientProperties"
+    },
+    {
+      "name": "spring.httpclient.connect-time-out",
+      "type": "java.lang.Integer",
+      "sourceType": "au.leon.platform.web.autoconfig.HttpClientProperties"
+    },
+    {
+      "name": "spring.httpclient.max-conn-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "au.leon.platform.web.autoconfig.HttpClientProperties"
+    },
+    {
+      "name": "spring.httpclient.max-conn-total",
+      "type": "java.lang.Integer",
+      "sourceType": "au.leon.platform.web.autoconfig.HttpClientProperties"
+    },
+    {
+      "name": "spring.httpclient.socket-time-out",
+      "type": "java.lang.Integer",
+      "sourceType": "au.leon.platform.web.autoconfig.HttpClientProperties"
+    }
+  ],
+  "hints": []
+}

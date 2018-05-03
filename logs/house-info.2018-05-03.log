@@ -86,3 +86,11 @@
 2018-05-03 15:46:50.872 [main] INFO  [org.eclipse.jetty.server.AbstractConnector:278] - Started ServerConnector@43b0ade{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
 2018-05-03 15:46:50.875 [main] INFO  [o.s.b.c.e.jetty.JettyEmbeddedServletContainer:144] - Jetty started on port(s) 8080 (http/1.1)
 2018-05-03 15:46:50.881 [main] INFO  [au.leon.platform.HouseplatApplication:57] - Started HouseplatApplication in 4.536 seconds (JVM running for 5.21)
+2018-05-03 15:53:22.228 [RMI TCP Connection(2)-127.0.0.1] INFO  [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125] - Application shutdown requested.
+2018-05-03 15:53:22.229 [RMI TCP Connection(2)-127.0.0.1] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2cdd0d4b: startup date [Thu May 03 15:46:46 AEST 2018]; root of context hierarchy
+2018-05-03 15:53:22.231 [RMI TCP Connection(2)-127.0.0.1] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2018-05-03 15:53:22.232 [RMI TCP Connection(2)-127.0.0.1] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:241] - Unregistering JMX-exposed beans
+2018-05-03 15:53:22.236 [RMI TCP Connection(2)-127.0.0.1] INFO  [com.alibaba.druid.pool.DruidDataSource:1823] - {dataSource-1} closed
+2018-05-03 15:53:22.251 [RMI TCP Connection(2)-127.0.0.1] INFO  [org.eclipse.jetty.server.AbstractConnector:318] - Stopped ServerConnector@43b0ade{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2018-05-03 15:53:22.263 [RMI TCP Connection(2)-127.0.0.1] INFO  [application:2167] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-05-03 15:53:22.265 [RMI TCP Connection(2)-127.0.0.1] INFO  [org.eclipse.jetty.server.handler.ContextHandler:910] - Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@3d7cc3cb{/,[file:///C:/Users/Sparta/AppData/Local/Temp/jetty-docbase.6775351612411757564.8080/],UNAVAILABLE}
