@@ -21,6 +21,7 @@ public class HelloController {
 		List<User> userList = userService.getUsers();
 		User one = userList.get(0);
 		modelMap.put("user", one);
+		int i = 1/0;
 		return "hello";
 	}
 	

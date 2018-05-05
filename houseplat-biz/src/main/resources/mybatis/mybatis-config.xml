@@ -13,7 +13,7 @@
     
     
     <typeAliases>
-       <typeAlias type="au.leon.platform.biz.bean.User" alias="user" />
+       <typeAlias type="au.leon.platform.common.bean.User" alias="user" />
     </typeAliases>
     
     <mappers>
