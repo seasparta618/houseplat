@@ -25,4 +25,6 @@ public interface UserService {
 	 * @return
 	 */
 	public boolean addAccount(User account);
+
+	public void registerNotify(String email);
 }
